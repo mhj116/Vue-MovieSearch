@@ -1,0 +1,49 @@
+.app {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+  }
